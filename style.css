@@ -7,5 +7,7 @@ ul li {
   font-size:25;
   height:50;
   width:100;
+  margin: auto;
+  padding: auto;
   
 }
