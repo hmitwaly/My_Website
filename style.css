@@ -4,10 +4,11 @@ body {
 ul li {
   display: inline-block;
   background-color: blue;
+  margin: auto;
+  padding: auto;
   font-size:25;
   height:50;
   width:100;
-  margin: auto;
-  padding: auto;
+  
   
 }
