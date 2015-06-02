@@ -1,3 +1,7 @@
 body {
   background-color: #BCBCCA;
 }
+.navbar {
+  display: inline-block;
+  background-color: black;
+}
