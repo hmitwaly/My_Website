@@ -1,7 +1,9 @@
 body {
   background-color: #BCBCCA;
 }
-li {
+ul li {
   display: inline-block;
   background-color: blue;
+  height:50;
+  width:100;
 }
