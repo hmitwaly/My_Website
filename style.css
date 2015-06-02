@@ -4,7 +4,8 @@ body {
 ul li {
   display: inline-block;
   background-color: blue;
+  font-size:25;
   height:50;
   width:100;
-  font-size:25;
+  
 }
