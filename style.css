@@ -1,17 +1,49 @@
-body {
-  background-color: #000000;
+nav {
+  background-color: gray;
+  border-radius: 5px;
+  right: 0;
+  botton: 0;
+  width: 100%;
+  poistion: fixed;
+  top: 0px;
 }
-ul li {
-  display: inline-block;
-  background-color: #000000;
-  text-align: center;
-  font-family:sans-serif;
-  padding-top: 15px;
-  margin-right:5px;
-  border-radius:5px;
-  font-size:25;
-  height:50;
-  width:150;
-  
-  
+
+.home {
+  background-color: blue;
+  height: 800px;
+  width: 100%;
+}
+
+.about {
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
+
+.projects {
+  background-color: purple;
+  height: 500px;
+  width: 100%;
+}
+
+.contact {
+  background-color: orange;
+  height: 500px;
+  width: 100%;
+}
+
+.buttons {
+  position: relative;
+  top: 350px;
+}
+
+p {
+  position: relative;
+  top: 200px;
+  font-size: 48px;
+  color: yellow;
+}
+
+h1 {
+  color: blue;
 }
