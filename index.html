@@ -2,10 +2,50 @@
 <html>
 <meta charset ="UTF-8">
 <link rel="stylesheet" href = "style.css">
+<script>
+  var main = function() {
+  $(".btn").click(function() {
+    $(this).toggleClass("btn-like");
+
+  });
+};
+
+$(document).ready(main);
+</script>
   <head>
     <title> My soon to be awesome website </title>
   </head>
-  <body background-color:black>
-    <img src ="digital-physics-atom.jpg"/>
-  </body>
+<body>
+  <nav align="right">
+    <a href="#home" class="btn btn-default active" role="button"><i class="fa fa-home"></i> Home</a>
+    <a href="#about" class="btn btn-default active" role="button"><i class="fa fa-info"></i> About</a>
+    <a href="#projects" class="btn btn-default active" role="button"><i class="fa fa-code"></i> Projects</a>
+    <a href="#contact" class="btn btn-default active" role="button"><i class="fa fa-user"></i> Contact</a>
+  </nav>
+  <div class="home">
+    <a name="home"></a>
+    <div class="buttons" align="center">
+      <a class="btn btn-default btn-lg active" role="button">Like!</a>
+      <a href="https://www.facebook.com/hossam.mitwaly?ref=bookmarks" class="btn btn-default btn-lg active" role="button"> Facebook</a>
+      <a href="https://www.linkedin.com/in/hossam-m-13815682?trk=nav_responsive_tab_profile_pic" class="btn btn-default btn-lg active" role="button">LinkedIn</a>
+      <a href="https://github.com/hmitwaly" class="btn btn-default btn-lg active" role="button"></i> Github</a>
+    </div>
+    <p class="intro">Hossam Mitwaly</p>
+  </div>
+  <div class="about">
+    <a name="about"></a>
+    <p class="text-center">Intersting things about me</p>
+    <h1>About me</h1>
+  </div>
+  <div class="projects">
+    <a name="projects"></a>
+    <p class="text-center">All found on GitHub</p>
+    <h1>Projects</h1>
+  </div>
+  <div class="contact">
+    <a name="contact"></a>
+    <p class="text-center">hmitwaly@uwaterloo.ca</p>
+    <h1>Contact</h1>
+  </div>
+</body>
 </html>
