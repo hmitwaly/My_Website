@@ -9,25 +9,25 @@ nav {
 }
 
 .home {
-  background-color: blue;
+  background-color: #4682B4;
   height: 800px;
   width: 100%;
 }
 
 .about {
-  background-color: red;
+  background-color: #87CEFA;
   height: 500px;
   width: 100%;
 }
 
 .projects {
-  background-color: purple;
+  background-color: #00BFFF;
   height: 500px;
   width: 100%;
 }
 
 .contact {
-  background-color: orange;
+  background-color: #000080;
   height: 500px;
   width: 100%;
 }
